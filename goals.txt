@@ -1,0 +1,14 @@
+Things to do today:
+
+1. Connect / disconnect events should not be sent out when program is first run	
+	* Maybe make an overloaded fetchDevices function with a "clean" arg that doesnt trigger events. Frontend calls that first.
+2. Work on frontend. On first run, it should ask you for ip address
+3. Settings page for adjusting ip address and fetch devices rate
+
+Goals:
+1.	Clean frontend. Visual representation of devices connected to the network, based on length from router. 
+	* Each device is a little bubble. If you click on the bubble, you should be brought to a page where you can create a rule based on whether or not theyre connected. 
+	* Should be able to execute a JS file or python script for that rule possibly. Or just send an email.
+	* Should be able to label devices
+2. Whole service should be a docker image or just generally easy to setup
+3. Rules based on how long someone has been inactive for
