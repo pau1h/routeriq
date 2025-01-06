@@ -55,11 +55,11 @@ This project transforms your router into an IoT-enabled device. With this tool, 
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/yourusername/iot-router-enhancer.git
+   git clone https://github.com/pau1h/routeriq.git 
    ```
 2. Navigate to the project directory:  
    ```bash
-   cd iot-router-enhancer
+   cd routeriq
    ```
 3. Build and run the project:  
    ```bash
