@@ -12,3 +12,9 @@ Goals:
 	* Should be able to label devices
 2. Whole service should be a docker image or just generally easy to setup
 3. Rules based on how long someone has been inactive for
+
+
+Notes:
+Maybe on first run, run a separate function that updates the database without triggering rules. That function calls the insertOrUpdate func afterwards which runs every few seconds.
+The way we can trigger rules could just be that for each rule we check the database for the status, and if its true, trigger the rule. Need a rule class and a database. Check status for each rule, and check current state of IOT device before triggering anything.
+I think honestly what I start off doing is making a front end where I can select devices.
