@@ -1,11 +1,6 @@
 
 # IoT Router Enhancer
 
-🚧 **Work in Progress** 🚧  
-This project transforms your router into an IoT-enabled device. With this tool, you can trigger automated rules and actions based on who joins or leaves your network.
-
----
-
 ## ✨ Features
 
 - **Device Detection**: Identify and track devices connecting or disconnecting from your network.
